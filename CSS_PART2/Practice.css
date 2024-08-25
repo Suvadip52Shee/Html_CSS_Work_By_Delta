@@ -1,0 +1,33 @@
+#Main{
+    color:blue;
+    
+}
+h1,h3,h5{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+*{
+    text-align:center;
+}
+.content{
+    color:white;
+    background-color:cornflowerblue;
+}
+.myclass{
+    color:azure;
+    background-color:purple;
+}
+button:hover{
+    color:blue;
+    background-color:yellow;
+}
+.mycontent:nth-of-type(2n+1){
+    color:yellow;
+}
+h1::first-letter{
+    color:red;
+}
+#yes:checked +label{
+    color:darkgreen;
+}
+
+

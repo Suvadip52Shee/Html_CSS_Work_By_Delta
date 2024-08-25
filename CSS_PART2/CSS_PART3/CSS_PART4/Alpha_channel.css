@@ -1,0 +1,11 @@
+
+div{
+    height:400px;
+    width:400px;
+    background-color:rgb(255,0,0,0.5);
+
+}
+#myid{
+    background-color:rgb(255,0,0);
+    opacity:0.5;
+}

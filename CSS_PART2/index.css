@@ -1,0 +1,121 @@
+/* class ,element,id selector */
+/* universal selector */
+*{
+   font-family: 'Courier New';
+
+}
+/* element selector */
+h1,h3{
+    color:#b92527;
+}
+#login{
+    color:white;
+    background-color:black;
+}
+#signup{
+    color:blueviolet;
+    background-color:white;
+}
+.upvote{
+    color :red;
+}
+#answer{
+    color:#b92527;
+}
+/* Id selector */
+#answer1{
+    color:greenyellow;
+}
+/* class selector */
+.answer3{
+    color:blueviolet;
+}
+/* a{
+    text-decoration:none;
+} */
+/* Descendent selector || we can skip multiple level in child */
+.myclass a{
+    color:purple;
+    background-color:yellow;
+}
+nav ul li a{
+    color:hotpink;
+}
+/* sibling combinator */
+p + h3{
+    color:red;
+    text-decoration:dotted yellow underline;
+}
+.upvote + button{
+    color:blue;
+}
+/* child combinator || only we can select the direct children */
+div > input{
+    background-color :salmon;
+}
+
+input[type="text"]{
+    color:red;
+}
+/* Attribute selector */
+input[type="password"]{
+    color:chartreuse;
+}
+input[type]{
+    background-color:antiquewhite;
+}
+div[id="myid"]{
+    color :blue;
+}
+/* Pseudo class :  hover,active,checked,n-th of type*/
+button:hover{
+    color: black;
+    background-color:blue;
+}
+h3:hover{
+    text-decoration: overline;
+}
+button:active{
+    background-color:yellow;
+}
+p:active{
+    background-color:red;
+    font-weight: bold;
+}
+a:active{
+    background-color:blueviolet;
+}
+
+input[type="radio"] + label :checked{
+    color:red;
+}
+.myclass:nth-of-type(1n){
+    color:chartreuse;
+}
+/* Pseudo element : first letter,first line,selection */
+h1:first-letter{
+    color:red;
+}
+p::first-line{
+    color:coral;
+}
+p::selection{
+    /* color:yellow; */
+    background-color: brown;
+}
+a::selection{
+    background-color:aquamarine;
+}
+h3::selection{
+    background-color:crimson;
+}
+/* Cascading & specificity */
+h3{
+    color:blue;
+}
+h3{
+    color:cornflowerblue;
+}
+
+
+

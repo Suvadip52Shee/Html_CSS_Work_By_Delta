@@ -1,0 +1,84 @@
+/* Box shadow property */
+body{
+    display:flex;
+    flex-direction:row;
+    align-items:center;
+    text-align: center;
+    flex-direction:column;
+    margin:0;
+    padding:0;
+    background-image:url("background_image.jpg");
+    background-size:contain;
+}
+.content{
+    display:flex;
+    flex-direction:row;
+    align-items:center;
+    text-align:center;
+    margin:10px;
+    justify-content:space-between;
+    width:70%;
+    max-width:1200px;
+    box-shadow:5px 5px 8px black;
+}
+.content1{
+    display:flex;
+    flex-direction:row;
+    align-items:center;
+    text-align:center;
+    margin:10px;
+    justify-content:space-between;
+    width:70%;
+    max-width:1200px;
+    box-shadow:5px 5px 8px black;
+}
+.content #myid{
+    display:flex;
+    align-items:center;
+    text-align:center;
+    justify-content:center;
+    height:400px;
+    width:400px;
+    background-color:chartreuse;
+    /* transform:skew(30deg); */
+    box-shadow: 2px 2px 5px black;
+}
+.content #Random_id{
+    display:flex;
+    align-items:center;
+    text-align:center;
+    justify-content:center;
+    height:400px;
+    width:400px;
+    background-color:blue;
+    /* transform:skew(30deg); */
+    box-shadow: 2px 2px 5px black;
+}
+.content1 #udar{
+    display:flex;
+    align-items:center;
+    text-align:center;
+    justify-content:center;
+    height:400px;
+    width:400px;
+    background-color:red;
+    /* transform:skew(30deg); */
+    box-shadow: 2px 2px 5px black;
+}
+.content1 #agni{
+    display:flex;
+    align-items:center;
+    text-align:center;
+    justify-content:center;
+    height:400px;
+    width:400px;
+    background-color:blueviolet;
+    /* transform:skew(30deg); */
+    box-shadow: 2px 2px 5px black;
+}
+
+
+
+
+
+
